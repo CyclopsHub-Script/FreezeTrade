@@ -8,7 +8,7 @@ local PlayerGui = LocalPlayer:WaitForChild("PlayerGui")
 local isMobile = UserInputService.TouchEnabled and not UserInputService.MouseEnabled
 
 local screenGui = Instance.new("ScreenGui")
-screenGui.Name = "NexioHub"
+screenGui.Name = "VexloHub"
 screenGui.ResetOnSpawn = false
 screenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
@@ -109,7 +109,7 @@ local titleLabel = Instance.new("TextLabel")
 titleLabel.Size = UDim2.new(0, 120, 0, 22)
 titleLabel.Position = UDim2.new(0, 58, 0, 8)
 titleLabel.BackgroundTransparency = 1
-titleLabel.Text = "NEXIO HUB"
+titleLabel.Text = "Vexlo Hub"
 titleLabel.TextColor3 = Color3.fromRGB(220, 150, 255)
 titleLabel.TextScaled = false
 titleLabel.TextSize = isMobile and 14 or 15
@@ -386,7 +386,7 @@ local socLabel = Instance.new("TextLabel")
 socLabel.Size = UDim2.new(1, 0, 0, 14)
 socLabel.Position = UDim2.new(0, 0, 0, 22)
 socLabel.BackgroundTransparency = 1
-socLabel.Text = "YT: ZeroScriptsOnTop • TT: nexioontopyt"
+socLabel.Text = "YT: VexloHub • TT: sharpie_0212"
 socLabel.TextColor3 = Color3.fromRGB(100, 60, 150)
 socLabel.TextScaled = false
 socLabel.TextSize = isMobile and 9 or 10
@@ -487,3 +487,4 @@ RunService.Heartbeat:Connect(function()
 	local alpha = (math.sin(t * 1.5) + 1) / 2
 	mainStroke.Transparency = 0.2 + alpha * 0.4
 end)
+
